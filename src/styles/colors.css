@@ -1,0 +1,76 @@
+/* src/styles/colors.css */
+/* Pastel Color Palette System */
+
+:root {
+  /* Primary Pastel Colors */
+  --pastel-pink: #FFB6D9;
+  --pastel-lavender: #E0B5E0;
+  --pastel-cream: #FFF8F0;
+  --pastel-peach: #FFD9B3;
+  
+  /* Complementary Colors */
+  --white: #FFFFFF;
+  --off-white: #FFFBF7;
+  --light-gray: #F5F5F5;
+  --dark-gray: #4A4A4A;
+  --text-dark: #3A3A3A;
+  
+  /* Gradient Backgrounds */
+  --gradient-soft: linear-gradient(135deg, #FFE6F0 0%, #E0E6FF 50%, #FFE6D5 100%);
+  --gradient-warm: linear-gradient(135deg, #FFB6D9 0%, #FFD9B3 100%);
+  --gradient-cool: linear-gradient(135deg, #E0B5E0 0%, #D4E6FF 100%);
+  
+  /* Shadows - Soft Only */
+  --shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-glow: 0 0 20px rgba(255, 182, 217, 0.4);
+  --shadow-glow-lavender: 0 0 20px rgba(224, 181, 224, 0.4);
+  
+  /* Glassmorphism */
+  --glass-background: rgba(255, 255, 255, 0.7);
+  --glass-backdrop: backdrop-filter: blur(10px);
+  
+  /* Border Radius */
+  --radius-small: 8px;
+  --radius-medium: 12px;
+  --radius-large: 16px;
+  --radius-xl: 24px;
+  --radius-full: 50%;
+}
+
+/* Color Utility Classes */
+.bg-pastel-pink {
+  background-color: var(--pastel-pink);
+}
+
+.bg-pastel-lavender {
+  background-color: var(--pastel-lavender);
+}
+
+.bg-pastel-cream {
+  background-color: var(--pastel-cream);
+}
+
+.bg-pastel-peach {
+  background-color: var(--pastel-peach);
+}
+
+.bg-gradient-soft {
+  background: var(--gradient-soft);
+}
+
+.bg-gradient-warm {
+  background: var(--gradient-warm);
+}
+
+.bg-gradient-cool {
+  background: var(--gradient-cool);
+}
+
+.text-dark {
+  color: var(--text-dark);
+}
+
+.text-gray {
+  color: var(--dark-gray);
+}

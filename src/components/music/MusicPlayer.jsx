@@ -2,8 +2,9 @@ import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import styles from './MusicPlayer.module.css';
 
-const musicUrl = 'https://assets.mixkit.co/music/preview/mixkit-sweet-guitar-1240.mp3';
-const maxVolume = 0.16;
+// Using local audio file from /public/music/
+const musicUrl = '/music/background-music.mp3';
+const maxVolume = 0.3; // 30% default volume - supports emotion, doesn't dominate
 
 export default function MusicPlayer() {
   const audioRef = useRef(null);
