@@ -207,6 +207,14 @@
   background: rgba(255, 255, 255, 0.96);
   border: 1px solid rgba(255, 236, 241, 0.9);
   box-shadow: 0 28px 65px rgba(161, 109, 130, 0.12);
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.letterCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 182, 217, 0.5);
+  box-shadow: 0 35px 75px rgba(255, 182, 217, 0.2);
 }
 
 .preTitle {

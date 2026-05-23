@@ -1,0 +1,39 @@
+/* src/components/celebration/ClickBurst.module.css */
+
+.burstContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 99999; /* Overlay on top of almost everything but clicks can pass through */
+  overflow: hidden;
+}
+
+.particle {
+  position: fixed;
+  pointer-events: none;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  animation: burstOut var(--duration, 0.8s) cubic-bezier(0.15, 0.8, 0.35, 1) forwards;
+  filter: drop-shadow(0 4px 8px rgba(125, 74, 110, 0.15));
+}
+
+@keyframes burstOut {
+  0% {
+    transform: translate(-50%, -50%) scale(0.2) rotate(0deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.2) rotate(15deg);
+  }
+  60% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate(calc(-50% + var(--tx)), calc(-50% + var(--ty))) scale(0) rotate(220deg);
+    opacity: 0;
+  }
+}

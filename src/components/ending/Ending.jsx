@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import styles from './Ending.module.css';
 
-export default function Ending() {
+export default function Ending({ onTriggerCelebration }) {
   return (
     <motion.section
       className={styles.endingSection}
@@ -28,7 +28,7 @@ export default function Ending() {
       </div>
 
       <div className={styles.endingContent}>
-        <div className={styles.letterCard}>
+        <div className={styles.letterCard} onClick={onTriggerCelebration}>
           <p className={styles.preTitle}>A final note wrapped in gratitude</p>
           <h2 className={styles.title}>I Love You Maa ❤️</h2>
           <p className={styles.message}>

@@ -50,38 +50,20 @@ export const galleryImages = [
   {
     id: 1,
     src: "/images/gallery/memory1.jpg",
-    caption: "Beautiful Moments",
-    alt: "Family memories"
+    caption: "Your guidance and love have been my light through every step of life.",
+    alt: "Maa guiding and sharing love"
   },
   {
     id: 2,
     src: "/images/gallery/memory2.jpg",
-    caption: "Cherished Times",
-    alt: "Happy occasions"
+    caption: "Warm moments filled with your laughter and the sweetest conversations.",
+    alt: "Beautiful times with Maa"
   },
   {
     id: 3,
     src: "/images/gallery/memory3.jpg",
-    caption: "Love & Laughter",
-    alt: "Family celebrations"
-  },
-  {
-    id: 4,
-    src: "/images/gallery/memory4.jpg",
-    caption: "Special Moments",
-    alt: "Precious memories"
-  },
-  {
-    id: 5,
-    src: "/images/gallery/memory5.jpg",
-    caption: "Forever Memories",
-    alt: "Lasting impressions"
-  },
-  {
-    id: 6,
-    src: "/images/gallery/memory6.jpg",
-    caption: "Our Story",
-    alt: "Family bond"
+    caption: "A bond like no other, wrapped in your endless warmth and care.",
+    alt: "Cherished celebrations with Maa"
   }
 ];
 

@@ -123,6 +123,13 @@
   background: linear-gradient(180deg, rgba(255, 248, 247, 0.98), rgba(251, 232, 236, 0.95));
   box-shadow: 0 40px 90px rgba(151, 97, 120, 0.14);
   min-height: 520px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imageFrame:hover {
+  transform: scale(1.02);
+  box-shadow: 0 45px 95px rgba(255, 182, 217, 0.28);
 }
 
 .imageStage {
@@ -174,6 +181,14 @@
   line-height: 1.8;
   max-width: 26rem;
   box-shadow: 0 20px 50px rgba(168, 118, 137, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.quoteBadge:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 245, 247, 0.95);
+  border-color: rgba(255, 182, 217, 0.6);
 }
 
 @media (max-width: 1024px) {
